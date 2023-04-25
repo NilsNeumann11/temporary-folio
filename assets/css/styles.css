@@ -3,3 +3,26 @@
 farben: #efe8d7, #042a5a, #f4c4c4, #282b29, #7d2222, #deb873, #d2d2d2, #388883;
 
 /* ======================== FONTS ======================= */
+@font-face {
+	font-family: athene;
+	src: url(../fonts/Athene.otf);
+}
+
+@font-face {
+	font-family: open-sans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+/* ======================== BASIC ======================= */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: open-sans;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
