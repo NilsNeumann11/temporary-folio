@@ -53,3 +53,7 @@ html {
 .section-temporary {
 	margin: 0 144px;
 }
+
+.section-temporary h1 {
+	font-size: 16rem;
+}
