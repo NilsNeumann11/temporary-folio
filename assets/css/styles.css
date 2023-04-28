@@ -68,6 +68,7 @@ html {
 .section-temporary h1 span p {
 	width: 19.6rem;
 	color: #042a5a;
+	background-color: aquamarine;
 	/* 	display: inline-block;
 	margin: 0 4rem; */
 	border-right: 1px solid #042a5a;
