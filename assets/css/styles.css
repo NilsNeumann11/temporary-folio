@@ -94,6 +94,7 @@ figure img {
 }
 
 figure figcaption {
+	display: flex;
 	font-size: 2.4rem;
 	font-family: athene;
 	text-transform: uppercase;
