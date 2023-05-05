@@ -29,9 +29,8 @@ html {
 
 /* ===================== SECTION-NAV ==================== */
 
-body {
-	background-color: #e5e5e5;
-	max-width: 100%;
+header {
+	background-color: #efe8d7;
 }
 .section-nav {
 	display: flex;
@@ -79,26 +78,16 @@ body {
 	background-color: #042a5a;
 }
 
-/* header {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-} */
-
 .figure {
 	display: flex;
 	justify-content: center;
-}
-
-figure {
-	margin: 0 0 151px 0;
 }
 
 figure img {
 	width: 401px;
 	height: 602px;
 	border-radius: 50px;
-	margin: 50px 0 35px 0;3
+	margin: 50px 0 35px 0;
 }
 
 figure figcaption {
@@ -107,6 +96,7 @@ figure figcaption {
 	text-transform: uppercase;
 	font-weight: 400;
 	line-height: 34px;
+	margin: 0 0 151px 0;
 }
 
 figure figcaption span {
@@ -114,6 +104,43 @@ figure figcaption span {
 	font-family: open-sans;
 	font-weight: 400;
 	line-height: 33px;
+}
+/* =================== SECTION RELEASE ================== */
+
+.page-one {
+	background-color: #f4c4c4;
+
+	/* border: 2px solid orangered; */
+}
+
+.release {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+}
+
+.release p:nth-of-type(1) {
+	margin: 100px 0 50px 8%;
+}
+
+.release h2 {
+	font-family: athene;
+	font-size: 16rem;
+	font-weight: 400;
+	line-height: 20rem;
+	text-transform: uppercase;
+	color: #282b29;
+}
+
+.text {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 6.6% 0 60%;
+	padding-bottom: 100px;
+	font-size: 1.8rem;
+	line-height: 3.6rem;
+	letter-spacing: -2%;
+	font-family: open-sans;
 }
 /* ================== MEDIA QUERY AREA ================== */
 
