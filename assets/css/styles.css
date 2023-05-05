@@ -4,13 +4,13 @@ farben: #efe8d7, #042a5a, #f4c4c4, #282b29, #7d2222, #deb873, #d2d2d2, #388883;
 
 /* ======================== FONTS ======================= */
 @font-face {
-	font-family: athene;
+	font-family: Athene;
 	src: url(../fonts/Athene.otf);
 }
 
 @font-face {
 	font-family: open-sans;
-	src: url(../fonts/OpenSans-Regular.ttf);
+	src: url(../fonts/OpenSans_Condensed-Regular.ttf);
 }
 
 /* ======================== BASIC ======================= */
@@ -79,22 +79,29 @@ body {
 	background-color: #042a5a;
 }
 
+/* header {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+} */
+
+.figure {
+	display: flex;
+	justify-content: center;
+}
+
 figure {
 	margin: 0 0 151px 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 figure img {
 	width: 401px;
 	height: 602px;
 	border-radius: 50px;
-	margin: 50px 0 35px 0;
+	margin: 50px 0 35px 0;3
 }
 
 figure figcaption {
-	display: flex;
 	font-size: 2.4rem;
 	font-family: athene;
 	text-transform: uppercase;
