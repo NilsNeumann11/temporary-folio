@@ -141,6 +141,53 @@ figure figcaption span {
 	letter-spacing: -2%;
 	font-family: open-sans;
 }
+
+.principles {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 7% 0 51%;
+	font-family: open-sans;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 2.2rem;
+	text-transform: uppercase;
+	border-bottom: 1px solid #282b29;
+}
+
+.integrity {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 7% 0 51%;
+	color: #282b29;
+	font-family: open-sans;
+	font-weight: 400;
+	border-bottom: 1px solid #282b29;
+}
+
+.integrity p:nth-of-type(1) {
+	font-size: 1.4rem;
+	line-height: 1.9rem;
+	letter-spacing: -0.08em;
+	margin: 0 30px 0 0;
+}
+
+.integrity p:nth-of-type(2) {
+	line-height: 4.2rem;
+	font-size: 2.1rem;
+	letter-spacing: -0.02em;
+	padding: 0 29.7% 0 0;
+	margin: 0 25px 0 0;
+}
+
+.integrity p:nth-of-type(3) {
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	letter-spacing: -0.06em;
+	text-align: right;
+	width: 97px;
+	height: 72px;
+}
 /* ================== MEDIA QUERY AREA ================== */
 
 @media (max-width: 1250px) {
