@@ -20,6 +20,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: open-sans;
+	outline: none;
 }
 
 html {
@@ -266,13 +267,15 @@ figure figcaption span {
 }
 
 .circle {
-	/* margin: 0 0 0 80%; */
+	margin: 107px 107px 0 0;
+	padding: 0 0 107px 0;
 	display: flex;
 	justify-content: flex-end;
 }
 .circle img {
 	width: 107px;
 }
+
 /* ================== MEDIA QUERY AREA ================== */
 
 @media (max-width: 1250px) {
