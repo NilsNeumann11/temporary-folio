@@ -342,11 +342,95 @@ header {
 	padding: 0 0 250px 0;
 	text-align: right;
 }
+
+.footer {
+	color: #388883;
+	background-color: #d2d2d2;
+}
+
+.p-number p {
+	padding: 100px 0 50px 8%;
+}
+
+.p-text p {
+	font-family: open-sans;
+	font-weight: 400;
+	font-size: 2.4rem;
+	line-height: 4.8rem;
+	letter-spacing: -0.02em;
+	width: 290px;
+}
+
+.footer h2 {
+	font-family: Athene;
+	font-size: 16rem;
+	font-weight: 400;
+	line-height: 20rem;
+	text-transform: uppercase;
+}
+
+.footer ul {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	/* text-decoration: none; */
+	list-style-type: none;
+}
+
+.footer ul li {
+	font-family: open-sans;
+	font-weight: 400;
+	font-size: 2.4rem;
+	line-height: 4.8rem;
+	letter-spacing: -0.02em;
+}
+
+.footer ul li a {
+	text-decoration: none;
+	color: #388883;
+	display: block;
+}
+
+.footer ul li a:hover {
+	text-decoration: none;
+	color: #33514f;
+	font-size: 3.5rem;
+}
+.footer div:nth-of-type(2) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer nav {
+	padding: 0 6.6% 100px 0;
+}
 /* ================== MEDIA QUERY AREA ================== */
 
 @media (max-width: 1250px) {
 	.section-temporary h1 span {
 		font-size: 13rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	.footer ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		margin: 75px 0 0 6.6%;
+	}
+	.footer ul li {
+		margin: 0 25px 0;
+		width: 40px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer ul li a:hover {
+		font-size: 2.7rem;
+		text-decoration: underline;
 	}
 }
 
