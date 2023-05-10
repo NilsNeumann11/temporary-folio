@@ -28,6 +28,12 @@ html {
 	scroll-behavior: smooth;
 }
 
+/* test um den weißen rand zu entfernen */
+/* body {
+	max-width: 100%;
+	background-color: #f04f4f; 
+} */
+
 /* ===================== SECTION-NAV ==================== */
 
 header {
@@ -407,30 +413,49 @@ header {
 }
 /* ================== MEDIA QUERY AREA ================== */
 
-@media (max-width: 1250px) {
+@media screen and (min-width: 1250px) {
 	.section-temporary h1 span {
 		font-size: 13rem;
 	}
-	h2 {
-		font-size: 2rem;
+	/* ================= FOOTER MEDIA QUERY ================= */
+	.footer h2 {
+		font-size: 6rem;
+		line-height: 7rem;
 	}
+	.p-number p {
+		padding: 50px 0 25px 8%;
+	}
+
+	.p-text p {
+		font-size: 1.6rem;
+		width: 190px;
+	}
+
 	.footer ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		margin: 75px 0 0 6.6%;
+		margin: 25px 0 0 0;
 	}
 	.footer ul li {
 		margin: 0 25px 0;
 		width: 40px;
+		font-size: 2rem;
 		display: flex;
 		justify-content: center;
+	}
+
+	.footer ul li a {
+		color: rgb(0, 0, 0);
 	}
 
 	.footer ul li a:hover {
 		font-size: 2.7rem;
 		text-decoration: underline;
+	}
+	.footer nav {
+		padding: 0 0 50px 0;
 	}
 }
 
